@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CommandsDisabled>
+  <!--/////////////////////////////////////////////
+	This document determines the commands want to disabled for different command group.
+	To add the commands should be disabled for specific command group, 
+  add new entry of <CommandDisabled ...> to <CommandsDisabledGroup ...>
+  To add new command group defines group of commands which should be disabled,
+  add new <CommandsDisabledGroup ...> entries
+  //////////////////////////////////////////////-->
+
+  <!--/////////////////////////////////////////////
+  To let the command disabled feature work,
+	please add "CommandsDisabled" property to the entity which you want to disable the specified 
+  group of commands defined in <CommandsDisabledGroup ...> and the property value should be the Id of 
+  this CommandsDisabledGroup you defined with <CommandsDisabledGroup Id = "xxx" ...>
+  //////////////////////////////////////////////-->
+  
+  <!-- Disabled commands for arrangements component with CommandsDisabled property -->
+  <!-- For example: -->
+  <!-- CommandsDisabledGroup Id="arrangements" Enable="true" -->
+  <!-- The value of Id attribute which is "arrangements" should be same as "CommandsDisabled" property value of arrangments component-->
+  <!-- CmdDisabledManager will use the value of "CommandsDisabled" property to match the CommandsDisabledGroup defined below -->
+  <!-- The value "Enable" attribute means whether this CommandsDisabledGroup should be enabled in CmdDisabledManager-->
+  <!-- CmdDisabledManager will only check the command in enabled CommandsDisabledGroup -->
+  <!-- If the value of "Enable" attribute is "false", the CmdDisabledManager will bypass this CommandsDisabledGroup 
+  since this CommandsDisabledGroup is not enabled -->
+  <CommandsDisabledGroup Id="arrangements" Enable="true">
+    <!-- The command id which should be disabled defined in this commmand group -->
+    <CommandDisabled Id="FusionCreateNewComponentCommand"/>
+    <CommandDisabled Id="FusionGroundComponentsCommand"/>
+    <CommandDisabled Id="FusionMoveCommand"/>
+    <CommandDisabled Id="PIMECOReleaseCmd"/>
+    <CommandDisabled Id="CutCommand"/>
+    <CommandDisabled Id="CopyCommand"/>
+    <CommandDisabled Id="SoftDeleteCommand"/>
+    <CommandDisabled Id="TessellationControlCmd"/>
+	<CommandDisabled Id="GroundToParentCommand"/>
+	<CommandDisabled Id="UnGroundToParentCommand"/>
+  </CommandsDisabledGroup>
+  
+  <!-- Disabled commands for arrangement component with CommandsDisabled property -->
+  <CommandsDisabledGroup Id="arrangement" Enable="true">
+    <CommandDisabled Id="FusionCreateNewComponentCommand"/>
+    <CommandDisabled Id="FusionGroundComponentsCommand"/>
+    <CommandDisabled Id="FusionMoveCommand"/>
+    <CommandDisabled Id="RigidGroupCmd"/>
+    <CommandDisabled Id="PIMECOReleaseCmd"/>
+    <CommandDisabled Id="CutCommand"/>
+    <CommandDisabled Id="CopyCommand"/>
+    <CommandDisabled Id="SoftDeleteCommand"/>
+    <CommandDisabled Id="TessellationControlCmd"/>
+    <CommandDisabled Id="AlignComponentsCmd"/>
+	<CommandDisabled Id="GroundToParentCommand"/>
+	<CommandDisabled Id="UnGroundToParentCommand"/>
+  </CommandsDisabledGroup>
+  
+   <!-- Disabled commands for envelope component with CommandsDisabled property -->
+  <CommandsDisabledGroup Id="envelope" Enable="true">
+    <CommandDisabled Id="FusionCreateNewComponentCommand"/>
+    <CommandDisabled Id="FusionGroundComponentsCommand"/>
+    <CommandDisabled Id="FusionMoveCommand"/>
+    <CommandDisabled Id="RigidGroupCmd"/>
+    <CommandDisabled Id="PhysicalMaterialCommand"/>
+    <CommandDisabled Id="PIMECOReleaseCmd"/>
+    <CommandDisabled Id="CutCommand"/>
+    <CommandDisabled Id="CopyCommand"/>
+    <CommandDisabled Id="FusionDeleteOverrideCommand"/>
+    <CommandDisabled Id="FusionDeleteCommand"/>
+    <CommandDisabled Id="DeleteCommand"/>
+    <CommandDisabled Id="SoftDeleteCommand"/>
+    <CommandDisabled Id="TessellationControlCmd"/>
+    <CommandDisabled Id="AlignComponentsCmd"/>
+	<CommandDisabled Id="GroundToParentCommand"/>
+	<CommandDisabled Id="UnGroundToParentCommand"/>
+  </CommandsDisabledGroup>
+  
+   <!-- Disabled commands for sketches of arrange copied component instances with CommandsDisabled property -->
+  <CommandsDisabledGroup Id="arrangeSketchOfCopiedComponentInstance" Enable="true">
+    <CommandDisabled Id="CutCommand"/>
+    <CommandDisabled Id="FusionDeleteOverrideCommand"/>
+    <CommandDisabled Id="FusionDeleteCommand"/>
+    <CommandDisabled Id="DeleteCommand"/>
+    <CommandDisabled Id="SoftDeleteCommand"/>
+  </CommandsDisabledGroup>
+
+<!-- Disabled commands for bodies of arrange copied component instances with CommandsDisabled property -->
+  <CommandsDisabledGroup Id="arrangeBodyOfCopiedComponentInstance" Enable="true">
+    <CommandDisabled Id="FusionMoveCommand"/>
+    <CommandDisabled Id="FusionMoveToSurfaceGroupCommand"/>
+    <CommandDisabled Id="FusionCreateNewCompCmdFromBody"/>
+    <CommandDisabled Id="CutCommand"/>
+    <CommandDisabled Id="FusionDeleteOverrideCommand"/>
+    <CommandDisabled Id="FusionDeleteCommand"/>
+    <CommandDisabled Id="DeleteCommand"/>
+    <CommandDisabled Id="SoftDeleteCommand"/>
+    <CommandDisabled Id="TessellationControlCmd"/>
+  </CommandsDisabledGroup>
+  
+  <!-- Disabled commands for mesh bodies of arrange copied component instances with CommandsDisabled property -->
+  <CommandsDisabledGroup Id="arrangeMeshBodyOfCopiedComponentInstance" Enable="true">
+    <CommandDisabled Id="FusionMoveCommand"/>
+    <CommandDisabled Id="FusionMoveToSurfaceGroupCommand"/>
+    <CommandDisabled Id="FusionCreateNewCompCmdFromBody"/>
+    <CommandDisabled Id="CutCommand"/>
+    <CommandDisabled Id="FusionDeleteOverrideCommand"/>
+    <CommandDisabled Id="FusionDeleteCommand"/>
+    <CommandDisabled Id="DeleteCommand"/>
+    <CommandDisabled Id="SoftDeleteCommand"/>
+    <CommandDisabled Id="TessellationControlCmd"/>
+  </CommandsDisabledGroup>
+  
+  <!-- Disabled commands for arrange copied component instances with CommandsDisabled property -->
+  <CommandsDisabledGroup Id="arrangeCopiedComponentInstance" Enable="true">
+    <CommandDisabled Id="FusionCreateNewComponentCommand"/>
+    <CommandDisabled Id="FusionGroundComponentsCommand"/>
+    <CommandDisabled Id="FusionMoveCommand"/>
+    <CommandDisabled Id="RigidGroupCmd"/>
+    <CommandDisabled Id="PhysicalMaterialCommand"/>
+    <CommandDisabled Id="PIMECOReleaseCmd"/>
+    <CommandDisabled Id="CutCommand"/>
+    <CommandDisabled Id="CopyCommand"/>
+    <CommandDisabled Id="FusionDeleteOverrideCommand"/>
+    <CommandDisabled Id="FusionDeleteCommand"/>
+    <CommandDisabled Id="DeleteCommand"/>
+    <CommandDisabled Id="SoftDeleteCommand"/>
+    <CommandDisabled Id="TessellationControlCmd"/>
+    <CommandDisabled Id="AlignComponentsCmd"/>
+	<CommandDisabled Id="GroundToParentCommand"/>
+	<CommandDisabled Id="UnGroundToParentCommand"/>
+  </CommandsDisabledGroup>
+</CommandsDisabled>
+

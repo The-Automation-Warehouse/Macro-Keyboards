@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HUDs>
+
+
+
+  <!-- Primitives (Solid & Surface) -->
+
+  <HUD Id="Box">
+    <DropDownEntry Id="primitiveHeight" WidthString="000.000 cm" />
+	<DropDownEntry Id="boxWidth" WidthString="000.000 cm" />
+	<DropDownEntry Id="boxLength" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+  <HUD Id="BoxPrimitiveEditCommand">
+    <DropDownEntry Id="primitiveHeight" WidthString="000.000 cm" />
+	<DropDownEntry Id="boxWidth" WidthString="000.000 cm" />
+	<DropDownEntry Id="boxLength" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+  <HUD Id="SurfBox">
+    <DropDownEntry Id="primitiveHeight" WidthString="000.000 cm" />
+	<DropDownEntry Id="boxWidth" WidthString="000.000 cm" />
+	<DropDownEntry Id="boxLength" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+  <HUD Id="Cylinder">
+    <DropDownEntry Id="primitiveHeight" WidthString="000.000 cm" />
+	<DropDownEntry Id="cylinderDiameter" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+  <HUD Id="CylinderPrimitiveEditCommand">
+    <DropDownEntry Id="primitiveHeight" WidthString="000.000 cm" />
+	<DropDownEntry Id="cylinderDiameter" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+  <HUD Id="SurfCylinder">
+    <DropDownEntry Id="primitiveHeight" WidthString="000.000 cm" />
+	<DropDownEntry Id="cylinderDiameter" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+  <HUD Id="Sphere">
+    <DropDownEntry Id="SphereDiameter" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+  <HUD Id="SpherePrimitiveEditCommand">
+    <DropDownEntry Id="SphereDiameter" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+  <HUD Id="SurfSphere">
+    <DropDownEntry Id="SphereDiameter" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+
+  <HUD Id="Torus">
+    <DropDownEntry Id="CircleDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="TorusDiameter" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoTorusType" ShowText="false" SynchronizedWithCurrentItem="true" />  -->
+  </HUD>
+  
+  <HUD Id="TorusPrimitiveEditCommand">
+    <DropDownEntry Id="CircleDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="TorusDiameter" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoTorusType" ShowText="false" SynchronizedWithCurrentItem="true" />  -->
+  </HUD>
+  
+  <HUD Id="SurfTorus">
+    <DropDownEntry Id="CircleDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="TorusDiameter" WidthString="000.000 cm" />
+  </HUD>
+
+  <HUD Id="Coil">
+    <DropDownEntry Id="CoilDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="SectionSize" WidthString="000.000 cm" />
+    <DropDownEntry Id="CoilRevolutions" WidthString="0.0" />
+    <DropDownEntry Id="CoilHeight" WidthString="000.000 cm" />
+    <DropDownEntry Id="CoilPitch" WidthString="000.000 cm" />
+    <DropDownEntry Id="CoilTaperAngle" WidthString="000.000 deg" />
+  </HUD>
+  
+  <HUD Id="CoilPrimitiveEditCommand">
+    <DropDownEntry Id="CoilDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="SectionSize" WidthString="000.000 cm" />
+    <DropDownEntry Id="CoilRevolutions" WidthString="0.0" />
+    <DropDownEntry Id="CoilHeight" WidthString="000.000 cm" />
+    <DropDownEntry Id="CoilPitch" WidthString="000.000 cm" />
+    <DropDownEntry Id="CoilTaperAngle" WidthString="000.000 deg" />
+  </HUD>
+
+  <HUD Id="SurfCoil">
+    <DropDownEntry Id="CoilDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="SectionSize" WidthString="000.000 cm" />
+    <DropDownEntry Id="CoilRevolutions" WidthString="0.0" />
+    <DropDownEntry Id="CoilHeight" WidthString="000.000 cm" />
+    <DropDownEntry Id="CoilPitch" WidthString="000.000 cm" />
+    <DropDownEntry Id="CoilTaperAngle" WidthString="000.000 deg" />
+  </HUD>
+
+  <HUD Id="PrimitivePipe">
+    <DropDownEntry Id="SectionRadius" WidthString="000.000 cm" />
+    <DropDownEntry Id="SectionThickness" WidthString="000.000 cm" />
+    <DropDownEntry Id="SWEEP_POP_ALONG" WidthString="0.000 " />
+    <DropDownEntry Id="SWEEP_POP_AGAINST" WidthString="0.000 " />
+  </HUD>
+  
+  <HUD Id="PipePrimitiveEditCommand">
+    <DropDownEntry Id="SectionRadius" WidthString="000.000 cm" />
+    <DropDownEntry Id="SectionThickness" WidthString="000.000 cm" />
+    <DropDownEntry Id="SWEEP_POP_ALONG" WidthString="0.000 " />
+    <DropDownEntry Id="SWEEP_POP_AGAINST" WidthString="0.000 " />
+  </HUD>
+    
+  <HUD Id="SurfPrimitivePipe">
+    <DropDownEntry Id="SectionRadius" WidthString="000.000 cm" />
+    <DropDownEntry Id="SWEEP_POP_ALONG" WidthString="0.000 " />
+    <DropDownEntry Id="SWEEP_POP_AGAINST" WidthString="0.000 " />
+  </HUD>
+
+
+  <!-- Solid & Surface Modeling -->
+
+  <HUD Id="Extrude">
+    <DropDownEntry Id="AlongExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="AgainstExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="ExtrudeTaperAngle" WidthString="000.000 deg" />
+    <DropDownEntry Id="Side1ExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="ExtrudeSide1TaperAngle" WidthString="000.000 cm" />
+    <DropDownEntry Id="ExtrudeSide2TaperAngle" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="extentsType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoDirectionType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+
+  <HUD Id="FusionExtrudeEditCommand">
+    <DropDownEntry Id="AlongExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="AgainstExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="ExtrudeTaperAngle" WidthString="000.000 deg" />
+    <DropDownEntry Id="Side1ExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="ExtrudeSide1TaperAngle" WidthString="000.000 cm" />
+    <DropDownEntry Id="ExtrudeSide2TaperAngle" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="extentsType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoDirectionType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+
+  <HUD Id="SurfaceExtrude">
+    <DropDownEntry Id="AlongExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="AgainstExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="ExtrudeTaperAngle" WidthString="000.000 deg" />
+    <DropDownEntry Id="Side1ExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="ExtrudeSide1TaperAngle" WidthString="000.000 cm" />
+    <DropDownEntry Id="ExtrudeSide2TaperAngle" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoDirectionType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="extentsType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+
+  <HUD Id="FusionSurfaceExtrudeEditCommand">
+    <DropDownEntry Id="AlongExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="AgainstExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="ExtrudeTaperAngle" WidthString="000.000 deg" />
+    <DropDownEntry Id="Side1ExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="ExtrudeSide1TaperAngle" WidthString="000.000 cm" />
+    <DropDownEntry Id="ExtrudeSide2TaperAngle" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoDirectionType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="extentsType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+
+  <HUD Id="Revolve">
+    <DropDownEntry Id="RevolveAlongAngle" WidthString="000.000 deg" />
+    <DropDownEntry Id="RevolveAgainstAngle" WidthString="000.000 deg" />
+    <!-- <DropDownButton Id="infoDirectionType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+
+  <HUD Id="FusionRevolveEditCommand">
+    <DropDownEntry Id="RevolveAlongAngle" WidthString="000.000 deg" />
+    <DropDownEntry Id="RevolveAgainstAngle" WidthString="000.000 deg" />
+    <!-- <DropDownButton Id="infoDirectionType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+
+  <HUD Id="SurfaceRevolve">
+    <DropDownEntry Id="RevolveAlongAngle" WidthString="000.000 deg" />
+    <DropDownEntry Id="RevolveAgainstAngle" WidthString="000.000 deg" />
+    <!-- <DropDownButton Id="infoDirectionType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+  
+  <HUD Id="FusionSurfaceRevolveEditCommand">
+    <DropDownEntry Id="RevolveAlongAngle" WidthString="000.000 deg" />
+    <DropDownEntry Id="RevolveAgainstAngle" WidthString="000.000 deg" />
+    <!-- <DropDownButton Id="infoDirectionType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+  
+  <HUD Id="Sweep">
+    <DropDownEntry Id="SWEEP_POP_ALONG" WidthString="0.000 " />
+    <DropDownEntry Id="SWEEP_POP_AGAINST" WidthString="0.000 " />
+    <DropDownEntry Id="SWEEP_POP_RAIL_DIST_ALONG" WidthString="0.000 " />
+    <DropDownEntry Id="SWEEP_POP_RAIL_DIST_AGAINST" WidthString="0.000 " />
+    <!-- <DropDownButton Id="infoSweepOrientation" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+
+
+  <HUD Id="FusionSweepEditCommand">
+    <DropDownEntry Id="SWEEP_POP_ALONG" WidthString="0.000 " />
+    <DropDownEntry Id="SWEEP_POP_AGAINST" WidthString="0.000 " />
+    <DropDownEntry Id="SWEEP_POP_RAIL_DIST_ALONG" WidthString="0.000 " />
+    <DropDownEntry Id="SWEEP_POP_RAIL_DIST_AGAINST" WidthString="0.000 " />
+    <!-- <DropDownButton Id="infoSweepOrientation" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+
+  <HUD Id="FusionSurfaceSweepEditCommand">
+    <DropDownEntry Id="SWEEP_POP_ALONG" WidthString="0.000 " />
+    <DropDownEntry Id="SWEEP_POP_AGAINST" WidthString="0.000 " />
+    <!-- <DropDownButton Id="infoSweepOrientation" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+
+  <HUD Id="SurfaceSweep">
+    <DropDownEntry Id="SWEEP_POP_ALONG" WidthString="0.000 " />
+    <DropDownEntry Id="SWEEP_POP_AGAINST" WidthString="0.000 " />
+    <DropDownEntry Id="SWEEP_POP_RAIL_DIST_ALONG" WidthString="0.000 " />
+    <DropDownEntry Id="SWEEP_POP_RAIL_DIST_AGAINST" WidthString="0.000 " />
+    <!-- <DropDownButton Id="infoSweepOrientation" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+  
+  <HUD Id="ConnectorObstacleCmd">
+    <DropDownEntry Id="ConnectorShaftDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="ConnectorShaftLength" WidthString="000.000 cm" />
+    <DropDownEntry Id="ConnectorHeadClearanceDiameter" WidthString="000.000 deg" />
+    <DropDownEntry Id="ConnectorHeadClearanceLength" WidthString="000.000 cm" />
+    <DropDownEntry Id="ConnectorToolClearanceDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="ConnectorToolClearanceLength" WidthString="000.000 cm" />
+  </HUD>
+
+  <HUD Id="ConnectorObstacleEditCmd">
+    <DropDownEntry Id="ConnectorShaftDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="ConnectorShaftLength" WidthString="000.000 cm" />
+    <DropDownEntry Id="ConnectorHeadClearanceDiameter" WidthString="000.000 deg" />
+    <DropDownEntry Id="ConnectorHeadClearanceLength" WidthString="000.000 cm" />
+    <DropDownEntry Id="ConnectorToolClearanceDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="ConnectorToolClearanceLength" WidthString="000.000 cm" />
+  </HUD>
+
+  <HUD Id="FusionRibCommand">
+    <DropDownEntry Id="RibWidthInput" WidthString="000.000 cm" />
+    <DropDownEntry Id="RibDepthInput" WidthString="000.000 cm" />
+    <DropDownEntry Id="RibDraftAngleInput" WidthString="000.000 deg" />
+    <DropDownEntry Id="RibFilletInput" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoWidthOption" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoDepthOption" ShowText="true" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <CheckBox Id="RibDirection" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+  
+  <HUD Id="FusionWebCommand">
+    <DropDownEntry Id="WebWidthInput" WidthString="000.000 cm" />
+    <DropDownEntry Id="WebDepthInput" WidthString="000.000 cm" />
+    <DropDownEntry Id="WebDraftAngleInput" WidthString="000.000 deg" />
+    <DropDownEntry Id="WebFilletInput" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoWidthOption" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoDepthOption" ShowText="true" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <CheckBox Id="RibDirection" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+  <HUD Id="FusionDcRibEditCommand">
+    <DropDownEntry Id="RibWidthInput" WidthString="000.000 cm" />
+    <DropDownEntry Id="RibDepthInput" WidthString="000.000 cm" />
+    <DropDownEntry Id="RibDraftAngleInput" WidthString="000.000 deg" />
+    <DropDownEntry Id="RibFilletInput" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoWidthOption" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoDepthOption" ShowText="true" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <CheckBox Id="RibDirection" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+  <HUD Id="FusionDcWebEditCommand">
+    <DropDownEntry Id="WebWidthInput" WidthString="000.000 cm" />
+    <DropDownEntry Id="WebDepthInput" WidthString="000.000 cm" />
+    <DropDownEntry Id="WebDraftAngleInput" WidthString="000.000 deg" />
+    <DropDownEntry Id="WebFilletInput" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoWidthOption" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <DropDownButton Id="infoDepthOption" ShowText="true" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <CheckBox Id="RibDirection" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+ 
+  <HUD Id="FusionFilletEdgesCommand">
+    <DynamicControls Id="FilletEdgesRadius"/>
+    <DynamicControls Id="FilletRadiusPosition"/>
+  </HUD>
+  
+  <HUD Id="FusionFilletEditCommand">
+    <DropDownEntry Id="OffsetFacesDistanceInput" WidthString="000.000 cm" />
+  </HUD>
+
+  <HUD Id="FusionDcFilletEditCommand">
+    <DynamicControls Id="FilletEdgesRadius"/>
+    <DynamicControls Id="FilletRadiusPosition"/>
+  </HUD>
+
+  <HUD Id="FusionChamferEditCommand">
+    <DropDownEntry Id="OffsetFacesDistanceInput" WidthString="000.000 cm" />
+  </HUD>
+
+  <HUD Id="FusionDcChamferEditCommand">
+    <DynamicControls Id="FirstChamferDistance" WidthString="000.000 cm" />
+    <DynamicControls Id="SecondChamferDistance" WidthString="000.000 cm" />
+    <DynamicControls Id="AngleValue" WidthString="000.000 deg" />
+  </HUD>
+
+  <HUD Id="FusionChamferCommand">
+    <DynamicControls Id="FirstChamferDistance" WidthString="000.000 cm" />
+    <DynamicControls Id="SecondChamferDistance" WidthString="000.000 cm" />
+    <DynamicControls Id="AngleValue" WidthString="000.000 deg" />
+   <!-- <DropDownButton Id="infoChamferType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+
+  <HUD Id="FusionHoleCommand">
+    <!-- <DropDownButton Id="HoleType" ShowText="false" SynchronizedWithCurrentItem="true" />  -->
+    <DropDownEntry Id="HoleDepth" WidthString="000.000 cm" />
+    <DropDownEntry Id="HoleDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="HoleCBDepth" WidthString="000.000 cm" />
+    <DropDownEntry Id="HoleCBDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="HoleCSDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="HoleCSAngle" WidthString="000.000 deg" />
+  </HUD>
+
+  <HUD Id="FusionHoleEditCommand">
+    <!-- <DropDownButton Id="HoleType" ShowText="false" SynchronizedWithCurrentItem="true" />   -->
+    <DropDownEntry Id="HoleDepth" WidthString="000.000 cm" />
+    <DropDownEntry Id="HoleDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="HoleCBDepth" WidthString="000.000 cm" />
+    <DropDownEntry Id="HoleCBDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="HoleCSDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="HoleCSAngle" WidthString="000.000 deg" />
+  </HUD>
+
+  <HUD Id="FusionDcHoleEditCommand">
+    <DropDownEntry Id="HoleDepth" WidthString="000.000 cm" />
+    <DropDownEntry Id="HoleDiameter" WidthString="000.000 cm" />
+    <!-- <DropDownEntry Id="HoleTipAngle" WidthString="000.000 deg" /> -->
+    <DropDownEntry Id="HoleCBDepth" WidthString="000.000 cm" />
+    <DropDownEntry Id="HoleCBDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="HoleCSDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="HoleCSAngle" WidthString="000.000 deg" />
+  </HUD>
+  
+  <HUD Id="FusionThreadCommand">
+    <DropDownEntry Id="ThreadOffset" WidthString="000.000 cm" />
+    <DropDownEntry Id="ThreadLength" WidthString="000.000 cm" />
+  </HUD>
+
+  <HUD Id="FusionThreadEditCommand">
+    <DropDownEntry Id="ThreadOffset" WidthString="000.000 cm" />
+    <DropDownEntry Id="ThreadLength" WidthString="000.000 cm" />
+  </HUD>
+  
+  <HUD Id="FusionDcThreadEditCommand">
+    <DropDownEntry Id="ThreadOffset" WidthString="000.000 cm" />
+    <DropDownEntry Id="ThreadLength" WidthString="000.000 cm" />
+  </HUD>
+
+  <HUD Id="FusionShellBodyCommand">
+    <DropDownEntry Id="ShellBodyThicknessInsideInput" WidthString="000.000 cm" />
+    <DropDownEntry Id="ShellBodyThicknessOutsideInput" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoShellDirection" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+
+  <HUD Id="FusionDcShellFeatureEditCommand">
+    <DropDownEntry Id="ShellBodyThicknessInsideInput" WidthString="000.000 cm" />
+    <DropDownEntry Id="ShellBodyThicknessOutsideInput" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoShellDirection" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+
+  <HUD Id="FusionDraftCommand">
+    <DropDownEntry Id="AlongAngleValue" WidthString="000.000 deg" />
+    <DropDownEntry Id="AgainstAngleValue" WidthString="000.000 deg" />
+    <!-- <DropDownButton Id="infoDirectionType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+
+  <HUD Id="FusionDcDraftEditCommand">
+    <DropDownEntry Id="AlongAngleValue" WidthString="000.000 deg" />
+    <DropDownEntry Id="AgainstAngleValue" WidthString="000.000 deg" />
+    <!-- <DropDownButton Id="infoDirectionType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+
+  <HUD Id="FusionSurfacePatchCommand">
+    <!-- <DropDownButton Id="Connectivity" ShowText="false" SynchronizedWithCurrentItem="true" />  -->
+  </HUD>
+
+  <HUD Id="FusionCombineCommand">
+    <!-- <DropDownButton Id="infoBooleanOption" ShowText="false" SynchronizedWithCurrentItem="true" />   -->
+  </HUD>
+
+  <HUD Id="EnclosureCommand">
+    <!-- <DropDownButton Id="VolumeType" ShowText="false" SynchronizedWithCurrentItem="true"/>   -->
+    <!-- <DropDownButton Id="ShapeType"  ShowText="true" SynchronizedWithCurrentItem="true"/>   -->
+    <!-- <DropDownButton Id="ShapeDirection" ShowText="true" SynchronizedWithCurrentItem="true"/>   -->
+    <!-- <DropDownEntry  Id="EnclosureOffset" WidthString="000.000 cm"/>  -->
+  </HUD>
+
+  <HUD Id="FusionSurfaceOffsetCommand">
+    <DropDownEntry Id="SurfaceOffsetDistance" WidthString="00.000 cm" />
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+
+  <HUD Id="FusionDcSurfaceOffsetEditCommand">
+    <DropDownEntry Id="SurfaceOffsetDistance" WidthString="00.000 cm" />
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+<!--   <HUD Id="FusionSurfaceMidsurfaceShellCommand"> -->
+<!--     <DropDownEntry Id="SurfaceOffsetDistance" WidthString="00.000 cm" /> -->
+<!--     < ! - - <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> - - > -->
+<!--   </HUD> -->
+
+  <HUD Id="FusionSurfaceOffsetShellCommand">
+    <DropDownEntry Id="SurfaceOffsetDistance" WidthString="00.000 cm" />
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+	
+	<HUD Id="FusionDcSurfaceOffsetShellEditCommand">
+		<DropDownEntry Id="SurfaceOffsetDistance" WidthString="00.000 cm" />
+		<!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+	</HUD>
+
+	<HUD Id="FusionDcSurfaceThickenEditCommand">
+    <DropDownEntry Id="SurfaceOffsetDistance" WidthString="00.000 cm" />
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" /> -->
+  </HUD>
+
+  <HUD Id="FusionSurfaceRuledCommand">
+    <DropDownEntry Id="RuledDistance" WidthString="00.000 cm" />
+    <DropDownEntry Id="Angle" WidthString="000.000 deg" />
+  </HUD>
+
+  <HUD Id="FusionSurfaceThickenCommand">
+    <DropDownEntry Id="ThickenValue" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoThickenDirection" ShowText="true" SynchronizedWithCurrentItem="true" /> -->
+    <!-- <CheckBox Id="ThickenChainSelectionOption" /> -->
+  </HUD>
+
+  <HUD Id="FusionOffsetFacesCommand">
+    <DropDownEntry Id="OffsetFacesDistanceInput" WidthString="000.000 cm" />
+    <DropDownEntry Id="ReblendRadiusInput" WidthString="000.000 cm" />
+    <DropDownEntry Id="FirstChamferDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="HoleDiameter" WidthString="000.000 cm" />
+    <DropDownEntry Id="Radius" WidthString="000.000 cm" />
+    <DropDownEntry Id="RevolveAlongAngle" WidthString="000.000 deg" />
+    <DropDownEntry Id="HoleDepth" WidthString="000.000 cm" />
+  </HUD>
+  
+  <HUD Id="FusionOffsetFacesEditCommand">
+    <DropDownEntry Id="OffsetFacesDistanceInput" WidthString="000.000 cm" />
+  </HUD>
+  
+  <HUD Id="FusionExtendCommand">
+    <DropDownEntry Id="ExtendValue" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoExtendType" ShowText="false" SynchronizedWithCurrentItem="true" />   -->
+  </HUD>
+  <HUD Id="FusionDcSurfaceExtendEditCommand">
+    <DropDownEntry Id="ExtendValue" WidthString="000.000 cm" />
+    <!-- <DropDownButton Id="infoExtendType" ShowText="false" SynchronizedWithCurrentItem="true" />   -->
+  </HUD>
+  
+  <HUD Id="PatternCircular">
+    <DropDownEntry Id="infoCircularGridEntryCount" WidthString="00000"/>
+    <DropDownEntry Id="infoTotalAngle" WidthString="000.000 deg" />
+    <DropDownButton Id="infoCircularGridModel" ShowText="false" SynchronizedWithCurrentItem="true" />
+  </HUD>
+
+  <HUD Id="PatternCircularEdit">
+    <DropDownEntry Id="infoCircularGridEntryCount" WidthString="00000"/>
+    <DropDownEntry Id="infoTotalAngle" WidthString="000.000 deg" />
+    <DropDownButton Id="infoCircularGridModel" ShowText="false" SynchronizedWithCurrentItem="true" />
+  </HUD>
+
+  <HUD Id="FusionDcCircularPatternEditCommand">
+    <DropDownEntry Id="infoCircularGridEntryCount" WidthString="00000"/>
+    <DropDownEntry Id="infoTotalAngle" WidthString="000.000 deg" />
+    <DropDownButton Id="infoCircularGridModel" ShowText="false" SynchronizedWithCurrentItem="true" />
+  </HUD>
+
+  <HUD Id="PatternRectangular">
+    <DynamicControls Id="RectangularGrid"/>
+  </HUD>
+
+  <HUD Id="PatternRectangularEdit">
+    <DynamicControls Id="RectangularGrid"/>
+  </HUD>
+
+  <HUD Id="FusionPatternGeometricCommand">
+    <DynamicControls Id="DynSizeLimit1Id" />
+    <DynamicControls Id="DynSizeLimit2Id" />
+    <DynamicControls Id="DynRotateObjectId" />
+    <DynamicControls Id="DynSizeDistance1Id" />
+    <DynamicControls Id="DynSizeDistance2Id" />
+    <DynamicControls Id="DynQuantity0Id" />
+    <DynamicControls Id="DynQuantity1Id" />
+    <DynamicControls Id="DynQuantity2Id" />
+    <DynamicControls Id="DynQuantityRadialId" />
+    <DynamicControls Id="DynDistanceBetweenArcsId" />
+    <DynamicControls Id="DynDistanceOnArcId" />
+    <DynamicControls Id="DynDistanceTriangleId" />
+    <DynamicControls Id="DynDistanceHexagonId" />
+  </HUD>
+
+  <HUD Id="PatternComplexEdit">
+    <DynamicControls Id="DynSizeLimit1Id" />
+    <DynamicControls Id="DynSizeLimit2Id" />
+    <DynamicControls Id="DynRotateObjectId" />
+    <DynamicControls Id="DynSizeDistance1Id" />
+    <DynamicControls Id="DynSizeDistance2Id" />
+    <DynamicControls Id="DynQuantity0Id" />
+    <DynamicControls Id="DynQuantity1Id" />
+    <DynamicControls Id="DynQuantity2Id" />
+    <DynamicControls Id="DynQuantityRadialId" />
+    <DynamicControls Id="DynDistanceBetweenArcsId" />
+    <DynamicControls Id="DynDistanceTriangleId" />
+    <DynamicControls Id="DynDistanceOnArcId" />
+    <DynamicControls Id="DynDistanceHexagonId" />
+  </HUD>
+
+  <HUD Id="FusionDcComplexPatternEditCommand">
+    <DropDownEntry Id="infoCircularGridEntryCount" WidthString="00000"/>
+    <DropDownEntry Id="infoTotalAngle" WidthString="000.000 deg" />
+    <DropDownButton Id="infoCircularGridModel" ShowText="false" SynchronizedWithCurrentItem="true" />
+  </HUD>
+
+  <HUD Id="FusionDcRectangularPatternEditCommand">
+    <DynamicControls Id="RectangularGrid"/>
+  </HUD>
+
+  <HUD Id="PatternOnPath">
+    <DynamicControls Id="PatternOnPathDistance"/>
+    <DynamicControls Id="PatternOnPathStartPoint"/>
+    <DynamicControls Id="PatternOnPathQuantity"/>
+    <DropDownButton Id="infoPOPOrientation" ShowText="false" SynchronizedWithCurrentItem="true" />
+    <DropDownButton Id="infoPOPDirection" ShowText="false" SynchronizedWithCurrentItem="true" />
+  </HUD>
+
+  <HUD Id="FusionDcPathPatternEditCommand">
+    <DynamicControls Id="PatternOnPathDistance"/>
+    <DynamicControls Id="PatternOnPathStartPoint"/>
+    <DynamicControls Id="PatternOnPathQuantity"/>
+    <DropDownButton Id="infoPOPOrientation" ShowText="false" SynchronizedWithCurrentItem="true" />
+    <DropDownButton Id="infoPOPDirection" ShowText="false" SynchronizedWithCurrentItem="true" />
+  </HUD>
+  
+  <HUD Id="SolidLoft">
+    <Label Id="Label_Hint" Text="" Visible="false"/>
+    <DropDownButton Id="INPUT_SELREORDER" ShowText="true" SynchronizedWithCurrentItem="true" WidthString="Profile 00"/>
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" />  -->
+  </HUD>
+
+  <HUD Id="FusionLoftEditCommand">
+    <Label Id="Label_Hint" Text="" Visible="false"/>
+    <DropDownButton Id="INPUT_SELREORDER" ShowText="true" SynchronizedWithCurrentItem="true" WidthString="Profile 00"/>
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" />  -->
+  </HUD>
+
+  <HUD Id="SurfaceLoft">
+    <DropDownButton Id="INPUT_SELREORDER" ShowText="true" SynchronizedWithCurrentItem="true" WidthString="Profile 00"/>
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" />  -->
+  </HUD>
+
+  <HUD Id="FusionSurfaceLoftEditCommand">
+    <Label Id="Label_Hint" Text="" Visible="false"/>
+    <DropDownButton Id="INPUT_SELREORDER" ShowText="true" SynchronizedWithCurrentItem="true" WidthString="Profile 00"/>
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" />  -->
+  </HUD>
+  
+  <HUD Id="TSplineLoft">
+    <DropDownButton Id="INPUT_SELREORDER" ShowText="true" SynchronizedWithCurrentItem="true" WidthString="Profile 00"/>
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" />  -->
+  </HUD>
+
+
+
+  <!-- Assembly -->
+
+  <HUD Id="JointAssembleCmdNew">
+    <DropDownButton Id="infoJointType" ShowText="false" SynchronizedWithCurrentItem="true" />
+    <DynamicControls Id="Placement1" ShowText="True" />
+	<DynamicControls Id="infoJointDOF"/>
+  </HUD>
+
+	<HUD Id="JointAsBuiltCmd">
+		<DropDownButton Id="infoJointTypeFullLabel" ShowText="false" SynchronizedWithCurrentItem="true" />
+		<DynamicControls Id="infoJointDOF"/>
+	</HUD>
+
+	<HUD Id="DcEditJointAsBuiltCmd">
+		<DropDownButton Id="infoJointTypeFullLabel" ShowText="false" SynchronizedWithCurrentItem="true" />
+		<DynamicControls Id="infoJointDOF"/>
+		<!-- <CheckBox Id="infoJointAlignFlip" ShowText="false" /> -->
+	</HUD>
+
+  <HUD Id="EditJointAssembleCmd">
+    <DropDownButton Id="infoJointType" ShowText="false" SynchronizedWithCurrentItem="true" />
+    <DynamicControls Id="Placement1" ShowText="True" />
+	<DynamicControls Id="infoJointDOF"/>
+  </HUD>
+
+  <HUD Id="DcEditJointAssembleCmd">
+    <DropDownButton Id="infoJointType" ShowText="false" SynchronizedWithCurrentItem="true" />
+    <DynamicControls Id="Placement1" ShowText="True" />
+	<DynamicControls Id="infoJointDOF"/>
+    <!-- <CheckBox Id="infoJointAlignFlip" ShowText="false" />  -->
+  </HUD>
+
+  <HUD Id="JointOrigin">
+    <!-- <DropDownButton Id="Type" ShowText="True" SynchronizedWithCurrentItem="true" /> -->
+    <DynamicControls Id="Placement11" ShowText="True" />
+    <DynamicControls Id="Placement12" ShowText="True" />
+  </HUD>
+
+  <HUD Id="EditJointOriginCmd">
+    <!-- <DropDownButton Id="Type" ShowText="True" SynchronizedWithCurrentItem="true" />  -->
+    <DynamicControls Id="Placement11" ShowText="True" />
+    <DynamicControls Id="Placement12" ShowText="True" />
+  </HUD>
+
+  <HUD Id="EditJointOriginR2Cmd">
+    <!-- <DropDownButton Id="Type" ShowText="True" SynchronizedWithCurrentItem="true" />  -->
+    <DynamicControls Id="Placement11" ShowText="True" />
+    <DynamicControls Id="Placement12" ShowText="True" />
+  </HUD>
+
+  <HUD Id="EditJointDOFLimitsCmd">
+    <DynamicControls Id="infoJointDOF"/>
+  </HUD>
+
+  <HUD Id="FusionMoveComponentsCommand">
+    <DynamicControls Id="MoveComponentsTransformInput"/>
+  </HUD>
+
+  <HUD Id="FusionMoveJointsCommand">
+    <DropDownEntry Id="XDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="YDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="ZDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="XRotation" WidthString="000.000 deg" />
+    <DropDownEntry Id="YRotation" WidthString="000.000 deg" />
+    <DropDownEntry Id="ZRotation" WidthString="000.000 deg" />
+    <DropDownEntry Id="Z0Rotation" WidthString="000.000 deg" />
+    <DropDownEntry Id="X1Rotation" WidthString="000.000 deg" />
+    <DropDownEntry Id="Z2Rotation" WidthString="000.000 deg" />
+  </HUD>
+
+  <HUD Id="FusionFastenersCommand">
+    <DynamicControls Id="LibCmdMoveInput"/>
+    <DynamicControls Id="keyColumnInput0" />
+    <DynamicControls Id="keyColumnInput1" />
+    <DynamicControls Id="keyColumnInput2" />
+    <DynamicControls Id="keyColumnInput3" />
+    <DynamicControls Id="keyColumnInput4" />
+    <DynamicControls Id="keyColumnInput5" />
+    <DynamicControls Id="keyColumnInput6" />
+    <DynamicControls Id="keyColumnInput7" />
+    <DynamicControls Id="keyColumnInput8" />
+    <DynamicControls Id="keyColumnInput9" />
+    <DynamicControls Id="keyColumnInput10" />
+    <DynamicControls Id="keyColumnInput11" />
+    <DynamicControls Id="keyColumnInput12" />
+    <DynamicControls Id="keyColumnInput13" />
+    <DynamicControls Id="keyColumnInput14" />
+  </HUD>
+
+  <HUD Id="FastenersEditCommand">
+    <DynamicControls Id="keyColumnInput0" />
+    <DynamicControls Id="keyColumnInput1" />
+    <DynamicControls Id="keyColumnInput2" />
+    <DynamicControls Id="keyColumnInput3" />
+    <DynamicControls Id="keyColumnInput4" />
+    <DynamicControls Id="keyColumnInput5" />
+    <DynamicControls Id="keyColumnInput6" />
+    <DynamicControls Id="keyColumnInput7" />
+    <DynamicControls Id="keyColumnInput8" />
+    <DynamicControls Id="keyColumnInput9" />
+    <DynamicControls Id="keyColumnInput10" />
+    <DynamicControls Id="keyColumnInput11" />
+    <DynamicControls Id="keyColumnInput12" />
+    <DynamicControls Id="keyColumnInput13" />
+    <DynamicControls Id="keyColumnInput14" />
+  </HUD>
+
+  <HUD Id="FastenersReplaceCommand">
+    <DynamicControls Id="keyColumnInput0" />
+    <DynamicControls Id="keyColumnInput1" />
+    <DynamicControls Id="keyColumnInput2" />
+    <DynamicControls Id="keyColumnInput3" />
+    <DynamicControls Id="keyColumnInput4" />
+    <DynamicControls Id="keyColumnInput5" />
+    <DynamicControls Id="keyColumnInput6" />
+    <DynamicControls Id="keyColumnInput7" />
+    <DynamicControls Id="keyColumnInput8" />
+    <DynamicControls Id="keyColumnInput9" />
+    <DynamicControls Id="keyColumnInput10" />
+    <DynamicControls Id="keyColumnInput11" />
+    <DynamicControls Id="keyColumnInput12" />
+    <DynamicControls Id="keyColumnInput13" />
+    <DynamicControls Id="keyColumnInput14" />
+  </HUD>
+
+  <HUD Id="FastenersInsertSimilar">
+    <DynamicControls Id="keyColumnInput0" />
+    <DynamicControls Id="keyColumnInput1" />
+    <DynamicControls Id="keyColumnInput2" />
+    <DynamicControls Id="keyColumnInput3" />
+    <DynamicControls Id="keyColumnInput4" />
+    <DynamicControls Id="keyColumnInput5" />
+    <DynamicControls Id="keyColumnInput6" />
+    <DynamicControls Id="keyColumnInput7" />
+    <DynamicControls Id="keyColumnInput8" />
+    <DynamicControls Id="keyColumnInput9" />
+    <DynamicControls Id="keyColumnInput10" />
+    <DynamicControls Id="keyColumnInput11" />
+    <DynamicControls Id="keyColumnInput12" />
+    <DynamicControls Id="keyColumnInput13" />
+    <DynamicControls Id="keyColumnInput14" />
+  </HUD>
+  
+	<HUD Id="AlignCmd">
+		<Button Id="infoFlipButton" />
+	</HUD>
+  <HUD Id="FusionDcAlignEditCommand">
+		<Button Id="infoFlipButton" />
+	</HUD>
+
+  <!-- Select -->
+
+  <HUD Id="FusionSelectComponentsBySizeCommand">
+    <Slider Id="SelectBySizeCmdFirstSlider" NoIcon="true" NumSliders="2" ShowText="true" ShowValue="true" UseText="false" ValueType="float" WidthSlider="100" WidthLowerValue="85" WidthUpperValue="85" RailStyle="1" HandleStyle="1"/>
+  </HUD>
+  <HUD Id="FusionSelectBodiesBySizeCommand">
+    <Slider Id="SelectBySizeCmdFirstSlider"
+            NoIcon="true"
+            NumSliders="2"
+            ShowText="true"
+            ShowValue="true"
+            UseText="false"
+            ValueType="float"
+            WidthSlider="100"
+            WidthLowerValue="85"
+            WidthUpperValue="85"
+            RailStyle="1"
+            HandleStyle="1" />
+  </HUD>
+  
+  <HUD Id="FusionSelectSeedAndBoundaryFacesCommand">
+  </HUD>
+  <!-- Modify -->
+
+  <HUD Id="FusionTweakFacesCommand">
+    <DynamicControls Id="OffsetFacesTransformInput"/>
+  </HUD>
+
+  <HUD Id="FusionMoveCommand">
+    <DynamicControls Id="MoveTransformInput"/>
+    <DropDownEntry Id="infoMoveTranslateX" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoMoveTranslateY" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoMoveTranslateZ" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoMoveDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoMoveAngle" WidthString="000.000 deg" SynchronizedWithCurrentItem="true" />
+  </HUD>
+
+  <HUD Id="FusionDcMoveBodyEditCommand">
+    <DynamicControls Id="MoveTransformInput"/>
+    <DropDownEntry Id="infoMoveTranslateX" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoMoveTranslateY" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoMoveTranslateZ" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoMoveDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoMoveAngle" WidthString="000.000 deg" SynchronizedWithCurrentItem="true" />
+  </HUD>
+  <HUD Id="FusionDcMoveCopyEditCommand">
+    <DynamicControls Id="MoveTransformInput"/>
+    <DropDownEntry Id="infoMoveTranslateX" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoMoveTranslateY" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoMoveTranslateZ" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoMoveDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoMoveAngle" WidthString="000.000 deg" SynchronizedWithCurrentItem="true" />
+  </HUD>
+
+  <HUD Id="ModifyScale">
+    <!-- <DropDownButton Id="infoScaleType" ShowText="false" SynchronizedWithCurrentItem="true" />  -->
+    <DropDownEntry Id="ScaleFactor" WidthString="000.000" />
+    <DynamicControls Id="NonUniformInput"/>
+  </HUD>
+  
+  <HUD Id="FusionDcScaleEditCommand">
+    <!-- <DropDownButton Id="infoScaleType" ShowText="false" SynchronizedWithCurrentItem="true" />  -->
+    <DropDownEntry Id="ScaleFactor" WidthString="000.000" />
+    <DynamicControls Id="NonUniformInput"/>
+  </HUD>
+  
+  <HUD Id="EditFaceCommand">
+    <DynamicControls Id="FrameTransformInput"/>
+  </HUD>
+  <!--<HUD Id="OpacityControlCmd">
+    <Slider Id="FusionOpacityControlOpacity" NoIcon="true" NumSliders="1"
+        ShowText="true" ShowValue="true" 
+        ValueType="int" LowerLimit="0" UpperLimit="100" WidthSlider="100"/>
+  </HUD>-->
+
+  <HUD Id="FusionPartingLineSplitCmd">
+    <DropDownEntry Id="infoExtendDist" WidthString="000.000 cm" />
+  </HUD>
+
+  <!-- Decals/Canvas -->
+
+  <HUD Id="FusionAddDecalCommand">
+    <DynamicControls Id="DecalTransformInput"/>
+  </HUD>
+  <HUD Id="FusionEditDecalCommand">
+    <DynamicControls Id="DecalTransformInput"/>
+  </HUD>
+  <HUD Id="FusionAddCanvasCommand">
+    <DynamicControls Id="FusionCanvasTransform"/>
+  </HUD>
+  <HUD Id="FusionAddBackgroundCanvasCommand">
+    <DynamicControls Id="FusionCanvasTransform"/>
+  </HUD>
+  <HUD Id="FusionEditCanvasCommand">
+    <DynamicControls Id="FusionCanvasTransform"/>
+  </HUD>
+
+
+
+  <!-- Decals/Canvas -->
+
+  <HUD Id="SelectionManager">
+    <CheckBox Id="Selection1" />
+    <CheckBox Id="Selection2"  />
+  </HUD>
+
+  <HUD Id="HalfSectionViewCommand">
+    <DynamicControls Id="SectionViewTransformInput"/>
+  </HUD>
+  <HUD Id="FusionHalfSectionViewCommand">
+    <DynamicControls Id="SectionViewTransformInput"/>
+  </HUD>
+  <HUD Id="FusionEditHalfSectionViewCommand">
+    <DynamicControls Id="SectionViewTransformInput"/>
+  </HUD>
+
+
+
+  <!-- Work Features -->
+
+  <HUD Id="WorkPlaneOffsetFromPlaneCommand">
+    <DropDownEntry Id="OffsetWorkPlaneDistanceInput" WidthString="000.000 cm" />
+  </HUD>
+
+  <HUD Id="FusionDcEditWorkPlaneByPlaneOffsetCommand">
+    <DropDownEntry Id="OffsetWorkPlaneDistanceInput" WidthString="000.000 cm" />
+  </HUD>
+
+  <HUD Id="WorkPlaneAlongPathCommand">
+    <DropDownEntry Id="WORKPLANE_POP_ALONG" WidthString="000.000 cm" />
+  </HUD>
+  
+  <HUD Id="WorkPlaneFromLineAndAngleCommand">
+    <DropDownEntry Id="infoAngleForWorkplane" WidthString="000.000 deg" SynchronizedWithCurrentItem="true" />
+  </HUD>
+
+  <HUD Id="FusionDcEditWorkPlaneByLineAndAngleCommand">
+    <DropDownEntry Id="infoAngleForWorkplane" WidthString="000.000 deg" SynchronizedWithCurrentItem="true" />
+  </HUD>
+
+  <HUD Id="WorkPlaneTangentToCylinderCommand">
+    <DropDownEntry Id="infoAngleForTangentWorkplane" WidthString="000.000 deg" SynchronizedWithCurrentItem="true" />
+  </HUD>
+
+  <!-- Sketch Commands -->
+
+  <HUD Id="FilletSketchCmd">
+    <DropDownEntry Id="SketchFilletRadius" WidthString="000.000 cm" />
+  </HUD>
+  <HUD Id="Offset">
+    <DropDownEntry Id="SketchPosition" WidthString="000.000 cm" />
+  </HUD>
+  <HUD Id="OffsetSketchEdit">
+    <DropDownEntry Id="SketchPosition" WidthString="000.000 cm" />
+  </HUD>
+  <HUD Id="DrawPoint">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="DrawPolyline">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="DrawCVSpline3D">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="DrawCVMSpline3D">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="DrawSpline">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="DrawCVSpline5D">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="DrawCVMSpline5D">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="ArcTangent">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="ArcCenterTwoPoint">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="ArcThreePoint">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="CircleCenterRadius">
+  <DynamicControls Id="PlaneSelectionInput"/>
+</HUD>
+  <HUD Id="CircleTwoPoint">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="CircleThreePoint">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="ShapeRectangleCenter">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="ShapeRectangleTwoPoint">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="ShapeRectangleThreePoint">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="CircleElipse">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="ConicCurveCmd">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="ShapePolygonInscribed">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="ShapePolygonCircumscribed">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="ShapePolygonEdge">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="TextCmd">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="MTextCmd">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="TextOnPathCmd">
+    <DynamicControls Id="PlaneSelectionInput"/>
+  </HUD>
+  <HUD Id="ShapePolygonInscribed">
+    <DropDownEntry Id="PolygonEdgeNumber"/>
+  </HUD>
+  <HUD Id="ShapePolygonEdge">
+    <DropDownEntry Id="PolygonEdgeNumber"/>
+  </HUD>
+  <HUD Id="ShapePolygonCircumscribed">
+    <DropDownEntry Id="PolygonEdgeNumber"/>
+  </HUD>
+  <HUD Id="SketchGeomConstraintCmd">
+    <DropDownButton Id="ConstraintType" ShowText="true" SynchronizedWithCurrentItem="true" />
+  </HUD>
+  <HUD Id="SketchMoveCmd">
+    <DynamicControls Id="MoveTransformInput"/>
+  </HUD>
+  <HUD Id="EditSplineCmd">
+    <DynamicControls Id="EditSplineTransformInput"/>
+  </HUD>
+  <HUD Id="ConicCurveCmd">
+    <DropDownEntry Id="ConicCurveRho"/>
+  </HUD>
+  <HUD Id="EditConicCmd">
+    <DropDownEntry Id="ConicCurveRho"/>
+  </HUD>
+  <HUD Id="TextCmd">
+    <DropDownEntry Id="TextHeight" WidthString="000.000 cm" /> <!-- old text height -->
+    <DropDownEntry Id="TextAngle" WidthString="000.000 deg" SynchronizedWithCurrentItem="true"/> <!-- for old and new text angle -->
+  </HUD>
+  <HUD Id="EditTextCmd">
+    <DropDownEntry Id="TextHeight" WidthString="000.000 cm" /> <!-- old text height -->
+    <DropDownEntry Id="TextAngle" WidthString="000.000 deg" SynchronizedWithCurrentItem="true"/> <!-- for old and new text angle -->
+  </HUD>
+  <HUD Id="MTextCmd">
+    <DropDownEntry Id="TextAngle" WidthString="000.000 deg" SynchronizedWithCurrentItem="true"/> <!-- for new text angle -->
+  </HUD>
+  <HUD Id="EditMTextCmd">
+    <DropDownEntry Id="TextAngle" WidthString="000.000 deg" SynchronizedWithCurrentItem="true"/> <!-- for new text angle -->
+  </HUD>
+  <HUD Id="SketchMoveTextCmd">
+    <DynamicControls Id="TextMoveTransformInput"/>
+  </HUD>
+  <HUD Id="RectangularSketchPatternCommand">
+    <!--CheckBox Id="Geometries" ShowText="true" />
+    <CheckBox Id="Line" ShowText="true" /-->
+    <DynamicControls Id="RectangularGrid"/>
+  </HUD>
+
+  <HUD Id="CircularSketchPatternCommand">
+    <DropDownEntry Id="infoCircularGridEntryCount" WidthString="00000"/>
+    <DropDownEntry Id="infoTotalAngle" WidthString="000.000 deg" />
+    <!--CheckBox Id="Geometries" ShowText="true" />
+    <CheckBox Id="CircularAxis" ShowText="true" /-->
+    <DropDownButton Id="infoCircularGridModel" ShowText="false" SynchronizedWithCurrentItem="true" />
+  </HUD>
+
+  <HUD Id="SketchRectangularPatternEdit">    
+    <DynamicControls Id="RectangularGrid"/>
+  </HUD>
+
+  <HUD Id="SketchPatternCircularEdit">
+    <DropDownEntry Id="infoCircularGridEntryCount" WidthString="00000"/>
+    <DropDownEntry Id="infoTotalAngle" WidthString="000.000 deg" />
+    <DropDownButton Id="infoCircularGridModel" ShowText="false" SynchronizedWithCurrentItem="true" />
+  </HUD>
+
+  <HUD Id="SketchImportSVG">
+    <DynamicControls Id="ImprotSVGTransformInput"/>
+  </HUD>
+
+  <HUD Id="ImportDxfFileCommand">
+    <DynamicControls Id="ImprotDxfTransformInput"/>
+  </HUD>
+
+  <HUD Id="SketchScaleCmd">
+    <DropDownEntry Id="ScaleFactor" WidthString="000.000" />
+    <DynamicControls Id="UniformInput"/>
+  </HUD>
+
+  <HUD Id="ChamferSketchEqualDistance">
+    <DropDownEntry Id="Distance" WidthString="000.000 cm" />
+  </HUD>
+  <HUD Id="ChamferSketchDistanceDistance">
+    <DropDownEntry Id="Distance1" WidthString="000.000 cm" />
+    <DropDownEntry Id="Distance2" WidthString="000.000 cm" />
+  </HUD>
+  <HUD Id="ChamferSketchDistanceAngle">
+    <DropDownEntry Id="Distance" WidthString="000.000 cm" />
+    <DropDownEntry Id="Angle" WidthString="000.000 deg" />
+  </HUD>
+
+  <!-- Misc Commands -->
+
+  <HUD Id="FusionRenameTimelineEntryCommand">
+    <DropDownEntry Id="FusionRenameTimelineEntryName" WidthString="a new feature name" />
+  </HUD>
+  
+  <HUD Id="TextureMappingCommand">
+    <DynamicControls Id="TextureMappingTransformInput"/>
+  </HUD>
+
+  <HUD Id="SelectByBoundaryCommand">
+  </HUD>
+
+  <HUD Id="RenderingEnvCmd">
+    <DynamicControls Id="infoEnvironmentCapturePosition"/>
+    <DynamicControls Id="infoEnvironmentOffset"/>
+    <NewLine />
+    <Slider Id="infoEnvironmentRotation" NoIcon="true" NumSliders="1"
+            ShowText="true" ShowValue="true"
+            ValueType="float" LowerLimit="-180" UpperLimit="180" WidthSlider="360" WidthLowerValue="60" WidthString="Ground Scale" />
+    <NewLine />
+    <Slider Id="infoEnvironmentProjectionScale" NoIcon="true" NumSliders="1"
+            ShowText="true" ShowValue="true"
+            ValueType="float" LowerLimit="0" UpperLimit="1" WidthSlider="360" WidthLowerValue="60" WidthString="Ground Scale" />
+    <NewLine />
+    <Button Id="infoButtonResetEnvironment" ShowText="true" NoIcon="true" />
+  </HUD>
+   <!-- SHEETMETAL -->
+
+<HUD Id="FusionSheetMetalFlangeCommand">
+    <DropDownEntry Id="CFAlongExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="CFAgainstExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="EFAlongExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="EdgeFlangeAngleCI" WidthString="000.000 deg" SynchronizedWithCurrentItem="true"  />
+    <!--<DropDownEntry Id="SymmetryWidth" WidthString="000.000 cm" /> -->
+    <DropDownEntry Id="Width1" WidthString="000.000 cm" />
+    <DropDownEntry Id="Width2" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoEdgeFlangeFirstOffset" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoEdgeFlangeSecondOffset" WidthString="000.000 cm"/>
+    <DropDownEntry Id="infoCFJoinWidth1" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoCFJoinWidth2" WidthString="000.000 cm" />
+    
+</HUD>
+
+<HUD Id="FusionBaseFaceEditCommand">
+    <DropDownEntry Id="CFAlongExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="CFAgainstExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="EFAlongExtrudeDistance" WidthString="000.000 cm" />
+    <DropDownEntry Id="EdgeFlangeAngleCI" WidthString="000.000 deg" SynchronizedWithCurrentItem="true"  />
+    <!--<DropDownEntry Id="SymmetryWidth" WidthString="000.000 cm" /> -->
+    <DropDownEntry Id="Width1" WidthString="000.000 cm" />
+    <DropDownEntry Id="Width2" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoEdgeFlangeFirstOffset" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoEdgeFlangeSecondOffset" WidthString="000.000 cm"/>
+    <DropDownEntry Id="infoCFJoinWidth1" WidthString="000.000 cm" />
+    <DropDownEntry Id="infoCFJoinWidth2" WidthString="000.000 cm" />
+   
+</HUD>
+
+  <HUD Id="SheetMetalBendCmd">
+    <DropDownEntry Id="SMBendAngleCI" WidthString="000.000 deg" SynchronizedWithCurrentItem="true"  />
+  </HUD>
+
+  <HUD Id="SheetMetalBendEditCmd">
+    <DropDownEntry Id="SMBendAngleCI" WidthString="000.000 deg" SynchronizedWithCurrentItem="true"  />
+  </HUD>
+
+  <HUD Id="ConvertToSheetMetalCmd">
+  </HUD>
+  <HUD Id="ConvertToSheetMetalEditCmd">
+  </HUD>
+  <HUD Id="DMConvertToSheetMetalCmd">
+  </HUD>
+    
+  <HUD Id="SelectByNameCommand">
+    <DropDownEntry Id="SimSelectByNameCmdText" ShowText="true" Width="180" Value="" NoIcon="false" IsEnabled="true"/>
+    <Button Id="SelectByNameCmdFind" ShowText="false"/>
+  </HUD>
+
+  <HUD Id="ReplaceWithPrimitivesCommand">
+  </HUD>
+
+  <HUD Id="DevFusionSurfaceShellBaseCommand">
+    <Slider Id="SimThinShellDistanceSlider" NoIcon="true" NumSliders="1" ShowText="true" WidthSlider="100" WidthLowerValue="85" ValueType="float" RailStyle="1" HandleStyle="1"/>
+    <DropDownEntry Id="SimThinShellDistanceValue" ShowText="true" WidthString="000.000"/>
+    <NewLine/>
+    <DropDownEntry Id="SimThinShellThicknessOverride" ShowText="true" WidthString="000.000 mm"/>
+    <Button Id="SimThinShellThicknessReset" ShowText="false"/>
+  </HUD>
+
+  <HUD Id="DevFusionSurfaceMidsurfaceShellCommand">
+    <Slider Id="SimThinShellDistanceSlider" NoIcon="true" NumSliders="1" ShowText="true" WidthSlider="100" WidthLowerValue="85" ValueType="float" RailStyle="1" HandleStyle="1"/>
+    <DropDownEntry Id="SimThinShellDistanceValue" ShowText="true" WidthString="000.000"/>
+    <NewLine/>
+    <DropDownEntry Id="SimThinShellThicknessOverride" ShowText="true" WidthString="000.000 mm"/>
+  </HUD>
+
+  <HUD Id="FusionSurfaceShellBaseCommand">
+    <DropDownEntry Id="SimThinShellThicknessOverride" ShowText="true" WidthString="000.000 mm"/>
+    <Button Id="SimThinShellThicknessReset" ShowText="false"/>
+  </HUD>
+  
+  <HUD Id="FusionSurfaceMidsurfaceShellCommand">
+    <DropDownEntry Id="SimThinShellThicknessOverride" ShowText="true" WidthString="000.000 mm"/>
+  </HUD>
+
+	<HUD Id="ReplaceWithPrimitivesCommand">
+	</HUD>
+
+	<HUD Id="DevFusionSurfaceShellBaseCommand">
+		<Slider Id="SimThinShellDistanceSlider" NoIcon="true" NumSliders="1" ShowText="true" WidthSlider="100" WidthLowerValue="85" ValueType="float" RailStyle="1" HandleStyle="1"/>
+		<DropDownEntry Id="SimThinShellDistanceValue" ShowText="true" WidthString="000.000"/>
+		<NewLine/>
+		<DropDownEntry Id="SimThinShellThicknessOverride" ShowText="true" WidthString="000.000 mm"/>
+		<Button Id="SimThinShellThicknessReset" ShowText="false"/>
+	</HUD>
+
+  <HUD Id="FusionGapFillCommand">
+    <DropDownButton Id="INPUT_SELREORDER" ShowText="true" SynchronizedWithCurrentItem="true" WidthString="200"/>
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" />  -->
+  </HUD>
+  <HUD Id="DCFusionGapFillEditCmd">
+    <DropDownButton Id="INPUT_SELREORDER" ShowText="true" SynchronizedWithCurrentItem="true" WidthString="200"/>
+    <!-- <DropDownButton Id="infoBooleanType" ShowText="false" SynchronizedWithCurrentItem="true" />  -->
+  </HUD>
+  <HUD Id="ArrangeCommand">
+    <DynamicControls Id="Orientation" WidthString="000.000 deg" />
+    <DynamicControls Id="SheetGrainDirection" WidthString="000.000 deg" />
+  </HUD>
+  <HUD Id="DcArrangeEditCommand">
+    <DynamicControls Id="Orientation" WidthString="000.000 deg" />
+    <DynamicControls Id="SheetGrainDirection" WidthString="000.000 deg" />
+  </HUD>
+  <HUD Id="DcAdvandedArrangeEditCommand">
+    <DynamicControls Id="Orientation" WidthString="000.000 deg" />
+    <DynamicControls Id="SheetGrainDirection" WidthString="000.000 deg" />
+  </HUD>
+</HUDs>

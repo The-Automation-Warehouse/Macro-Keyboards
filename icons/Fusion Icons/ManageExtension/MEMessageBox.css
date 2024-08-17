@@ -1,0 +1,105 @@
+/*
+	Note: Some of the styles are set directly from C++
+*/
+
+
+
+QObject {
+    font-family: Artifakt Element, Arial, Sans-Serif;
+    font-size: 14px;
+}
+
+QDialog {
+    border: 1px solid #D2D2D2;
+    background-color: #FFFFFF;
+}
+
+
+QHBoxLayout#innerLayout {
+    spacing: 12px;
+}
+
+
+/* */
+/* QLabels */
+/* */
+
+QLabel {
+    color: #666666;
+    font-size: 14px;
+    min-width: 475px;
+}
+
+QLabel#titleLabel {
+    font-family: Artifakt Element, Arial, Sans-Serif;
+    font-size: 24px;
+    margin-top: 2px;
+}
+
+QLabel#messageLabel {
+    margin-left: 2px;
+    margin-top: 16px;
+    margin-right: 24px;
+    margin-bottom: 12px;
+}
+
+/* */
+/* QPushButtons */
+/* */
+
+QPushButton {
+    background-color: transparent;
+    color: #656565;
+    font-size: 14px;
+    border: 1px solid #CCCCCB;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+    min-width: 80px;
+}
+
+QPushButton:default {
+    background-color: #0695d7;
+    color: #FFFFFF;
+}
+
+QPushButton:disabled {
+    background-color:#B1D9EE;
+    color: #FFFFFF;
+}
+
+
+QPushButton#CloseButton {
+    border: none;
+    padding: 0px;
+    min-width: 16px;
+}
+
+
+/* */
+/* QFrames */
+/* */
+
+QFrame#titleSeparator {
+    color: #E4E6E7;
+}
+
+QFrame#standardActions {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+/* */
+/* QCheckBox */
+/* */
+QCheckBox {
+	margin-left: 50%;
+	margin-right: 50%;
+}
+
+QDialogButtonBox {
+	qproperty-centerButtons: true;
+}

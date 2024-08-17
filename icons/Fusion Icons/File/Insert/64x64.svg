@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboardx64</title>
+    <g id="Prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-724.000000, -583.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(731.000000, 589.000000)">
+                <polygon id="Path" stroke="#3F4247" fill="#FDFDFD" points="0.461 15.427 13.136 0.543 49.5 0.447 49.5 39.514 37.444 51.434 0.544 51.492"></polygon>
+                <polygon id="Path" fill="#E0E2E6" points="35.087 50.956 1.023 51.032 0.96 15.629 34.783 15.748"></polygon>
+                <polygon id="Path" fill="#CDD0D6" points="49.048 39.28 37.246 50.941 37.145 15.367 48.981 0.937"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

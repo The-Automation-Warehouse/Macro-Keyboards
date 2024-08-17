@@ -1,0 +1,115 @@
+QObject
+{
+    font-family: Arial, Sans-Serif; 
+    font-size: 13px;
+}
+
+QDialog
+{
+    border: 1px solid #D2D2D2;
+    background-color: #FFFFFF;
+}
+
+QStackedWidget
+{
+    border: 1px solid rgba(49,51,49,40%);
+}
+
+QLabel
+{
+    color: #666666;
+    font-size: 12px;
+}
+
+QLabel:disabled
+{
+    color: #999999;
+}
+
+QLabel#titleLabel
+{
+    font-size: 24px;
+    color: #6C6C6C;
+    margin-top: 0px;
+}
+
+QFrame#frame1,
+QFrame#frame2
+{
+	color: #D2D2D2
+}
+
+QPushButton
+{
+    background-color: transparent;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 9px 16px 8px 16px;
+    color: #6C6C6C;
+}
+
+QPushButton#ReplaceButton
+{
+    background-color: #00A6E2;
+    border: 1px solid #00A6E2;
+    color: #FFFFFF;
+}
+
+QPushButton#ReplaceButton:disabled
+{
+    background-color: #A5E0F5;
+    border: 1px solid #A5E0F5;
+}
+
+QPushButton#ReplaceButton:hover
+{
+    background-color: #3AB5E1;
+    border: 1px solid #3AB5E1;
+}
+
+QPushButton#ReplaceButton:pressed
+{
+    background-color: #007EC0;
+    border: 1px solid #007EC0;
+}
+
+QPushButton#CancelButton
+{
+    background-color: #FAFAFA;
+    border: 1px solid #A2A2A2;
+}
+
+QPushButton#CancelButton:disabled
+{
+    background-color: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    color: #D2D2D2;
+}
+
+QPushButton#CancelButton:hover
+{
+    background-color: #FFFFFF;
+    border: 1px solid #D2D2D2;
+}
+
+QPushButton#CancelButton:pressed
+{
+    background-color: #EAEAEA;
+    border: 1px solid #ADADAD;
+}
+
+
+QPushButton#CloseButton
+{
+    border: none;
+}
+
+QCheckBox
+{
+    color: #666666;	
+}
+
+QSizeGrip
+{
+    width: 15px;
+}

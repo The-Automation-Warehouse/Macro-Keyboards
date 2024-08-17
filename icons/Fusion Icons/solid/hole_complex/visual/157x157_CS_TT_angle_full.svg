@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144.56" height="140.22" viewBox="0 0 144.56 140.22">
+  <title>157x157_CS_TT_angle_full</title>
+  <g>
+    <path d="M177.05,179.8H150.31l6.12,27.45q1.81,13.44,3.62,26.86.51,10.9,1,21.8l15.25,7.47v.49l.5-.24.5.24v-.49l15.25-7.47q.51-10.9,1-21.8l3.63-26.86,6.11-27.45Z" transform="translate(-127.72 -125)" fill="#c8c8c8" stroke="#979797" stroke-linejoin="bevel" stroke-width="3"/>
+    <g>
+      <line x1="36.58" y1="87.18" x2="61.58" y2="87.18" fill="none" stroke="#a0a0a0" stroke-miterlimit="10" stroke-width="2"/>
+      <line x1="40.58" y1="94.18" x2="58.58" y2="94.18" fill="none" stroke="#a0a0a0" stroke-miterlimit="10" stroke-width="2"/>
+      <line x1="36.58" y1="101.18" x2="61.58" y2="101.18" fill="none" stroke="#a0a0a0" stroke-miterlimit="10" stroke-width="2"/>
+      <line x1="40.58" y1="108.18" x2="58.58" y2="108.18" fill="none" stroke="#a0a0a0" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <polyline points="144.56 10.3 7.08 10.3 7.08 49" fill="none" stroke="#7c7c7c" stroke-miterlimit="10"/>
+    <line y1="53.42" x2="15" y2="53.42" fill="none" stroke="red" stroke-miterlimit="10"/>
+    <line x1="15" y1="138.85" y2="138.85" fill="none" stroke="red" stroke-miterlimit="10"/>
+    <g>
+      <line x1="7.5" y1="131.21" x2="7.5" y2="61.06" fill="none" stroke="#5286b8" stroke-miterlimit="10" stroke-width="2"/>
+      <polygon points="10.49 130.22 7.5 136.14 4.51 130.22 10.49 130.22" fill="#5286b8"/>
+      <polygon points="10.49 62.06 7.5 56.14 4.51 62.06 10.49 62.06" fill="#5286b8"/>
+    </g>
+    <line x1="98.86" y1="112.33" x2="83.86" y2="112.33" fill="none" stroke="red" stroke-miterlimit="10"/>
+    <line x1="98.86" y1="54.42" x2="83.86" y2="54.42" fill="none" stroke="red" stroke-miterlimit="10"/>
+    <g>
+      <line x1="91.36" y1="60.7" x2="91.36" y2="106.05" fill="none" stroke="#5286b8" stroke-miterlimit="10" stroke-width="2"/>
+      <polygon points="88.37 61.59 91.36 56.29 94.35 61.59 88.37 61.59" fill="#5286b8"/>
+      <polygon points="88.37 105.16 91.36 110.46 94.35 105.16 88.37 105.16" fill="#5286b8"/>
+    </g>
+    <line x1="21.28" y1="55.39" x2="21.28" y2="31.34" fill="none" stroke="red" stroke-miterlimit="10"/>
+    <line x1="76.32" y1="55.39" x2="76.32" y2="31.34" fill="none" stroke="red" stroke-miterlimit="10"/>
+    <line x1="76.45" y1="54.51" x2="80.08" y2="37.9" fill="none" stroke="red" stroke-miterlimit="10"/>
+    <line x1="20.71" y1="54.51" x2="17.08" y2="37.9" fill="none" stroke="red" stroke-miterlimit="10"/>
+    <g>
+      <line x1="69.73" y1="43.36" x2="27.87" y2="43.36" fill="none" stroke="#5286b8" stroke-miterlimit="10" stroke-width="2"/>
+      <polygon points="68.91 40.37 73.8 43.36 68.91 46.35 68.91 40.37" fill="#5286b8"/>
+      <polygon points="28.69 40.37 23.8 43.36 28.69 46.35 28.69 40.37" fill="#5286b8"/>
+    </g>
+    <polyline points="144.56 29.65 46.31 29.65 46.31 40.37" fill="none" stroke="#7c7c7c" stroke-miterlimit="10"/>
+    <line x1="94.34" y1="83.37" x2="144.56" y2="83.37" fill="none" stroke="#7c7c7c" stroke-miterlimit="10"/>
+    <g>
+      <path d="M169.13,251.31a13.47,13.47,0,0,1,15.35,0" transform="translate(-127.72 -125)" fill="none" stroke="#5286b8" stroke-miterlimit="10" stroke-width="2"/>
+      <polygon points="44.21 127.91 38.42 129.42 40.01 123.65 44.21 127.91" fill="#5286b8"/>
+      <polygon points="53.95 127.91 59.74 129.42 58.15 123.65 53.95 127.91" fill="#5286b8"/>
+    </g>
+    <line x1="59.92" y1="133.02" x2="55.5" y2="135.35" fill="none" stroke="#c8c8c8" stroke-miterlimit="10" stroke-width="3.5"/>
+    <polyline points="144.56 138.97 62.76 138.97 55.01 130.86 62.76 138.97" fill="none" stroke="#7c7c7c" stroke-miterlimit="10"/>
+    <line x1="8.95" x2="143.95" fill="none"/>
+    <line x1="144.56" y1="10.15" x2="144.56" y2="0.15" fill="none"/>
+    <g>
+      <line x1="79.16" y1="47.99" x2="111.81" y2="47.99" fill="none" stroke="#7c7c7c" stroke-miterlimit="10"/>
+      <line x1="111.81" y1="58.92" x2="144.46" y2="58.92" fill="none" stroke="#7c7c7c" stroke-miterlimit="10"/>
+      <line x1="111.81" y1="59.42" x2="111.81" y2="47.42" fill="none" stroke="#7c7c7c" stroke-miterlimit="10"/>
+    </g>
+  </g>
+</svg>

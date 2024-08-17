@@ -1,0 +1,78 @@
+<!-- ****************** -->
+<!-- **  File Panel  ** -->
+<!-- ****************** -->
+<Panel Id="FilePanel" _LCLZId="lclzFilePanel" _LCLZText="File"  >
+  <Controls>
+    <Button Id="NewSingleDocumentCommand" />
+    <Button Id="NewDocumentCommand" />
+    <Button Id="SaveDocumentAsCommand" />
+  </Controls>
+</Panel>
+
+
+<!-- *********************** -->
+<!-- ** Diagnostics Panel ** -->
+<!-- *********************** -->
+<Panel Id="DiagnosticsPanel" _LCLZId="lclzDiagnosticsPanel" _LCLZText="Diagnostics"  >
+  <Controls>
+    <Button Id="HideDebugDialogCommand" />
+    <Button Id="ShowDebugDialogCommand" />
+    <Button Id="DiagnosticsCommand" />
+    <Button Id="DataBrowserCommand" />
+    <Button Id="DumpEntityCommand" />
+    <Button Id="EntityFinderCommand" />
+    <Button Id="TSplineDumpEntityCommand" />
+    <Button Id="TSplineSaveAsTSMCommand" />
+    <Button Id="TSplineDiagnosticCommand" />
+    <Button Id="SanityCheckCommand"/>
+    <Button Id="RunTestsCommand" />
+    <Button Id="CollaborationMockDebugCmd"/>
+    <Button Id="MissingXRefMockDebugCmd"/>
+    <Button Id="SketchAutoConstrainCmd"/>
+  </Controls>
+  <PanelDropdown>
+    <Button Id="HideTextCommandsCommand" />
+    <Button Id="ShowTextCommandsCommand" />
+    <Button Id="HideDebugDialogCommand" />
+    <Button Id="ShowDebugDialogCommand" />
+    <Button Id="NTestImportCommand" />
+    <!--Button Id="ASMEntityTagCommand" /-->
+    <Button Id="DiagnosticsCommand" />
+    <Button Id="DataBrowserCommand" />
+    <Button Id="DumpEntityCommand" />
+    <Button Id="EntityFinderCommand" />
+    <Button Id="TSplineDumpEntityCommand" />
+    <Button Id="TSplineSaveAsTSMCommand" />
+    <Button Id="TSplineDiagnosticCommand" />
+    <Button Id="AssemblyInfoCommand" />
+    <Button Id="SanityCheckCommand"/>
+    <Button Id="ASMDebugOptionsCommand"/>
+    <Button Id="ASMDebugChecksCommand"/>
+    <Button Id="RunTestsCommand" />
+    <Button Id="CollaborationMockDebugCmd"/>
+    <Button Id="MissingXRefMockDebugCmd"/>
+    <Button Id="SketchAutoConstrainCmd"/>
+  </PanelDropdown>
+</Panel>
+
+
+<!-- ****************** -->
+<!-- **   UI Panel   ** -->
+<!-- ****************** -->
+<Panel Id="UIDemo" _LCLZId="lclzUIDemo" _LCLZText="UI Demo"  >
+  <Controls>
+    <!--<Button Id="DemoControlsCommand"/>-->
+    <Button Id="TestTableCommand"/>
+    <Button Id="TestTabBarCommand"/>
+  </Controls>
+  <PanelDropdown>
+    <Button Id="TestTableCommand"/>
+    <Button Id="TestTabBarCommand"/>
+    <Button Id="TestToolkitCommand"/>
+    <Button Id="TestOptionGroupCommand"/>
+    <Button Id="TestPropertyDialogCommand"/>
+    <Button Id="DemoControlsCommand"/>
+    <Button Id="DemoControls2Command"/>
+    <Button Id="TestQmlCommandDialogCommand"/>
+  </PanelDropdown>
+</Panel>
